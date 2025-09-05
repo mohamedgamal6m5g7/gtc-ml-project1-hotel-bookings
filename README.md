@@ -23,7 +23,7 @@ This repo focuses on **EDA, data quality checks, cleaning, feature engineering, 
   - `children` → coerced to numeric + fill with **median**
 - **Duplicates**: dropped
 - **Outliers**
-  - `adr > 1000` capped to **1000**
+  - `adr > 500` capped to **500**
   - negative `adr` capped to **0**
 - **Dates**
   - `reservation_status_date` parsed to datetime
